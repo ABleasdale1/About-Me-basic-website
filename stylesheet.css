@@ -1,0 +1,22 @@
+html{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+p{
+    margin-inline: 30%;
+}
+h1{
+    text-decoration: underline;
+    color: red;
+}
+h2{
+    text-decoration: underline;
+}
+img {
+    border-radius: 50%;
+  }
+.no-underline {
+    text-decoration: none;
+    color:red;
+  }
