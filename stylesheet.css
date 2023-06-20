@@ -15,7 +15,9 @@ h2{
 }
 img {
     border-radius: 50%;
-  }
+    height: 200px; 
+    width: 300px;
+}
 .no-underline {
     text-decoration: none;
     color:red;
