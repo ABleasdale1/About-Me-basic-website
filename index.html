@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-      <script src="https://kit.fontawesome.com/8cca80b5d2.js" crossorigin="anonymous"></script>
-      <script>
-          window.onscroll = function() { scrollFunction() };
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <script src="https://kit.fontawesome.com/8cca80b5d2.js" crossorigin="anonymous"></script>
+    <script>
+        window.onscroll = function() { scrollFunction() };
+    
+        function scrollFunction() {
+          var backToTopButton = document.getElementById("backToTopButton");
       
-          function scrollFunction() {
-            var backToTopButton = document.getElementById("backToTopButton");
-      
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-              backToTopButton.style.display = "block";
-            } else {
-               backToTopButton.style.display = "none";
-            }
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+          } else {
+             backToTopButton.style.display = "none";
           }
+        }
       
-          function backToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-          }
-      </script>
+        function backToTop() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
   </head>
   <body>
       <button class="back-to-top" id="backToTopButton" onclick="backToTop()"><i class="fa-solid fa-elevator fa-xs" style="color: #ffffff;"></i></button>
